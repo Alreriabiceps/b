@@ -21,27 +21,6 @@ jspm_packages/
 .env.test.local
 .env.production.local
 
-# Database files
-*.db
-*.sqlite
-*.sqlite3
-marketplace.db
-database.db
-test.db
-
-# Upload directories and files
-uploads/
-public/uploads/
-temp/
-tmp/
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.webp
-*.svg
-*_optimized.*
-
 # Build outputs
 dist/
 build/
@@ -63,21 +42,17 @@ coverage/
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage
 .grunt
 
-# Bower dependency directory (https://bower.io/)
+# Bower dependency directory
 bower_components
 
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
+# Compiled binary addons
 build/Release
-
-# Dependency directories
-node_modules/
-jspm_packages/
 
 # TypeScript cache
 *.tsbuildinfo
@@ -103,7 +78,7 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
-# parcel-bundler cache (https://parceljs.org/)
+# parcel-bundler cache
 .cache
 .parcel-cache
 
@@ -112,11 +87,9 @@ jspm_packages/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
-public
 
 # Storybook build outputs
 .out
@@ -153,23 +126,6 @@ yarn.lock
 package-lock.json
 pnpm-lock.yaml
 
-# Session files
-sessions/
-*.session
-
-# SSL certificates
-*.pem
-*.key
-*.crt
-*.cert
-
-# API documentation
-docs/api/
-
-# Test files
-test-results/
-test-output/
-
 # Serverless directories
 .serverless/
 
@@ -185,16 +141,6 @@ test-output/
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# MongoDB data
-data/
-
-# Redis dump
-dump.rdb
-
 # PM2 logs
 pm2.log
 logs/pm2/
-
-# Config files with sensitive data
-config/production.json
-config/local.json
